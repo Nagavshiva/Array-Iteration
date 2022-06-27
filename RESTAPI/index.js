@@ -19,7 +19,7 @@ const rescountries = (countryData)=>{
 
 
          //.......................question 4..................//
-         alert('Task 4 - USD Currency Country')
+            alert('In console.log,Task 4: USD Currency Country is displayed.')
        for(let i=0; i<countryData.length; i++){
      
         let isCurrency = countryData[i].currencies;
@@ -33,7 +33,7 @@ const rescountries = (countryData)=>{
       }
      
          //.......................question 3..................//
-         alert('Task 3 - All Country Name,Capital,Flag')
+        alert('In console.log,Task 3: All Country Name,Capital,Flag is displayed.')
    const result=countryData.forEach(element =>  {  
    
     console.log(`Country: Name-(${element.name.common}) Capital- (${element.capital}) Flag-(${element.flag})`)
@@ -42,13 +42,13 @@ const rescountries = (countryData)=>{
   
    //.......................question 2..................//
    const population= countryData.filter((element)=>element.population<200000)
-   alert('Task2 -Less than 2L population');
+  alert('In console.log,Task2:Less than 2L population is displayed.');
    console.log(population);
            
     
     //.......................question 1..................//
 
-    alert ('Task1 -Asia Region')
+    alert ('In console.log,Task1:Asia Region is displayed.')
 
     const Region=countryData.filter((item)=>item.region ==='Asia' );
          
